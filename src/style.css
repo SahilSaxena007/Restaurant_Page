@@ -40,13 +40,13 @@ button{
 }
 
 
-.content {
+#content {
     background-color: lightgray;
     display: grid;
     grid-template-rows: 1fr 8fr;
 }
 
-.content>:first-child{
+#content>:first-child{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -69,7 +69,7 @@ button{
 
 .image{
     height: 300px;
-    width: 300px;
+    width: 50%;
     background-size: cover;
     background-position: center;
     box-shadow: 10px 5px 5px lightblue; 
@@ -78,7 +78,7 @@ button{
 .image:hover{
     box-shadow: 10px 5px 5px lightcoral;
     height: 350px;
-    width: 350px;
+    width: 60%;
 }
 
 .item>p{
